@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="friendsList">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body ng-controller="mainCtrl">
+   <p>
+       'Woo'
+   </p>
+   <div>
+       {{name}}
+   </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js">
+    </script>
+    <script src="js/app.js"></script>
+    <script src="js/mainCtrl.js"></script>
+    <div ng-repeat="friend in friends">{{friend}}</div>
+</body>
+</html>
+
+
+
+
+
+Then open up index.html in a browser to verify you see 
+'Woo' and the background is green. If correct, remove 'woo' 
+and the green styling from your css.
